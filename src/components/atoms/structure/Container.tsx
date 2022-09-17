@@ -1,9 +1,9 @@
 import { FC } from 'react'
 
-import { getClassname, IDefaultProps } from "../../"
+import { getClassname, DefaultProps } from "../../"
 import './style.css'
 
-interface IContainerProps extends IDefaultProps {
+interface IContainerProps extends DefaultProps {
 
 }
 

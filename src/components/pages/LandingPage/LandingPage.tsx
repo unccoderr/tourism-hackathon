@@ -1,8 +1,8 @@
 import { FC } from 'react'
 /*import { getClassname } from "../"
-import { IDefaultProps } from "../"*/
+import { DefaultProps } from "../"*/
 
-interface ILandingPagProps /*extends IDefaultProps*/ {
+interface ILandingPagProps /*extends DefaultProps*/ {
 
 }
 

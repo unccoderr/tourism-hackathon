@@ -1,6 +1,0 @@
-import { ReactNode } from "react"
-
-export interface IDefaultProps {
-	children?: ReactNode,
-	className?: string
-}

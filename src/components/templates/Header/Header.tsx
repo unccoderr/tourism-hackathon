@@ -1,10 +1,10 @@
 import { FC } from 'react'
 
-import { Container, getClassname, IDefaultProps } from "../../"
+import { Container, getClassname, DefaultProps } from "../../"
 
 import { logoConstants } from "../../../constants"
 
-interface IHeaderProps extends IDefaultProps {
+interface IHeaderProps extends DefaultProps {
 
 }
 

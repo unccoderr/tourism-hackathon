@@ -1,1 +1,1 @@
-export * from './IDefaultProps'
+export * from './DefaultProps'
