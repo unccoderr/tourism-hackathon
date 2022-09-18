@@ -5,5 +5,11 @@
 	scroll-behavior: smooth
 	
 #root
-	height: 100vh
+	min-height: 100vh
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	& > *:nth-child(2)
+		min-height: calc(100vh - 277px)
+		padding-bottom: 48px
 	

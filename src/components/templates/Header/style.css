@@ -1,0 +1,22 @@
+.t__header {
+  padding: 2.25rem 0;
+}
+.t__headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.t__headerWrapper__navbar {
+  display: block;
+}
+.t__headerWrapper__navbarWrapper {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 65px;
+}
+.t__headerWrapper__navbarWrapper .active {
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=style.css.map */

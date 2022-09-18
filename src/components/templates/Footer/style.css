@@ -1,0 +1,20 @@
+.t__footer {
+  background: var(--secondary);
+  padding: 1.938rem 0;
+}
+.t__footerWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.t__footerWrapper__columnHeader {
+  text-transform: uppercase;
+  padding-bottom: 18px;
+}
+.t__footerWrapper__columnList {
+  list-style: none;
+}
+.t__footerWrapper__columnList > *:not(:last-child) {
+  padding-bottom: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+.p__landing__article {
+  padding-bottom: 48px;
+}
+.p__landing__articleColumn > *:not(:last-child) {
+  padding-bottom: 38px;
+}
+.p__landing__articleImg {
+  display: block;
+  width: 100%;
+}
+.p__landing__articleText {
+  display: block;
+}
+.p__landing__articleText h2 {
+  padding-bottom: 18px;
+}
+.p__landing__articleText p:not(:last-child) {
+  padding-bottom: 12px;
+}
+.p__landing__galleryHeader {
+  padding-bottom: 48px;
+  text-align: center;
+}
+.p__landing__galleryHeader h2 {
+  display: inline-block;
+}
+.p__landing__galleryList {
+  height: 490px;
+  overflow: auto;
+  scroll-behavior: smooth;
+  display: grid;
+  grid-template-columns: repeat(4, 390px);
+  grid-column-gap: 3%;
+}
+.p__landing__galleryList::-webkit-scrollbar {
+  height: 0;
+}
+.p__landing__galleryList__item {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
